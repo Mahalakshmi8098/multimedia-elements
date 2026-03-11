@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multimedia Elements</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:#f2f2f2;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.box{
+    background:white;
+    padding:20px;
+    margin:20px;
+    border-radius:8px;
+    box-shadow:0 0 8px rgba(0,0,0,0.2);
+}
+
+img{
+    width:300px;
+    border-radius:10px;
+}
+
+video{
+    width:400px;
+}
+
+audio{
+    margin-top:10px;
+}
+
+iframe{
+    width:400px;
+    height:250px;
+    border:none;
+}
+</style>
+</head>
+
+<body>
+
+<h1>HTML Multimedia Elements</h1>
+
+<div class="container">
+
+<div class="box">
+<h2>Image Example</h2>
+<img src="https://via.placeholder.com/300" alt="Sample Image">
+</div>
+
+<div class="box">
+<h2>Audio Example</h2>
+<audio controls>
+<source src="audio.mp3" type="audio/mpeg">
+Your browser does not support audio.
+</audio>
+</div>
+
+<div class="box">
+<h2>Video Example</h2>
+<video controls>
+<source src="video.mp4" type="video/mp4">
+Your browser does not support video.
+</video>
+</div>
+
+<div class="box">
+<h2>Iframe Example</h2>
+<iframe src="https://www.wikipedia.org"></iframe>
+</div>
+
+</div>
+
+</body>
+</html>
